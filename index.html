@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veltrix Labs</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f7f9fc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    nav {
+      background: white;
+      padding: 15px 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 18px;
+      color: #111827;
+    }
+
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .app-box {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+    }
+
+    .app-box h3 {
+      margin-bottom: 10px;
+      color: #2563eb;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vertlix Labs</h1>
+    <p>We build simple, fast, and reliable Android apps for productivity, documents, and everyday digital tools.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#apps">Apps</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Vertlix Labs</h2>
+      <p>
+        Vertlix Labs is an independent app development studio focused on creating useful Android applications. Our goal is to make digital tasks easier through clean design, smooth performance, and practical features.
+      </p>
+      <p>
+        We mainly work on productivity tools, PDF utilities, document conversion apps, and helpful mobile solutions for daily use.
+      </p>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Our Apps</h2>
+    <div class="apps">
+      <div class="app-box">
+        <h3>PDF Tools</h3>
+        <p>Apps for converting, managing, sharing, and working with PDF documents easily.</p>
+      </div>
+      <div class="app-box">
+        <h3>Document Utilities</h3>
+        <p>Simple tools for document conversion, file handling, and productivity workflows.</p>
+      </div>
+      <div class="app-box">
+        <h3>Android Productivity</h3>
+        <p>Lightweight apps designed to save time and improve everyday mobile usage.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <div class="card">
+      <h2>Privacy</h2>
+      <p>
+        Vertlix Labs respects user privacy. Our apps are designed to collect only the information required for core app functionality. We do not sell personal data.
+      </p>
+      <p>
+        For each app, a separate privacy policy may be provided on its Google Play Store listing.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>For support, feedback, or business inquiries, contact us:</p>
+      <p><strong>Email:</strong> vertlix.support@gmail.com</p>
+      <a class="button" href="mailto:vertlix.support@gmail.com">Send Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Vertlix Labs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
